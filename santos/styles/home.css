@@ -75,7 +75,7 @@ nav ul li a {
   font-family: var(--heading-font);
 }
 .Home-container {
-  height: 85vh;
+  height: 35rem;
   display: flex;
   max-width: 100rem;
   margin: 0 auto;
