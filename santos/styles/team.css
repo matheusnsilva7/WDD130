@@ -170,3 +170,9 @@ footer span {
   padding: 0.2rem 0 0 1rem;
   color: white;
 }
+footer a{
+  border-bottom: 2px solid white;
+  margin-left: 2rem;
+  font-size: 1.2rem;
+  color: white;
+}
