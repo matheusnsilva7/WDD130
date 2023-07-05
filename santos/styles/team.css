@@ -125,8 +125,8 @@ nav ul li a {
   grid-template-columns: 3fr 1fr;
   padding: 0.5rem 1rem;
 }
-.information-container span{
-  font-size: .7rem;
+.information-container span {
+  font-size: 0.7rem;
   text-align: center;
 }
 .news-container {
@@ -170,9 +170,17 @@ footer span {
   padding: 0.2rem 0 0 1rem;
   color: white;
 }
-footer a{
+footer a {
   border-bottom: 2px solid white;
   margin-left: 2rem;
   font-size: 1.2rem;
   color: white;
+}
+@media (max-width: 1000px) {
+  .players {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .last-row {
+    grid-column: 1/3;
+  }
 }
